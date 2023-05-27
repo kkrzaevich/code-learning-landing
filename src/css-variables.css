@@ -1,0 +1,633 @@
+/* Fonts */
+
+@import url(//db.onlinewebfonts.com/c/8f2a9d487bbbc60974cd132fc3a63862?family=Aeonik);
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=PT+Mono:regular);
+
+/* Color variables */
+
+:root {
+  --clr-bg1: #F4F4F4;
+  --clr-bg2: #FFFFFF;
+  --clr-bg3: #010101;
+  --clr-bg-highlight: #DDF247;
+  --clr-bg-overlay: #F8F5F5;
+  --clr-text-main1: #000000;
+  --clr-text-main2: #FFFFFF;
+  --clr-text-soft: #A3A3A3;
+  --clr-text-code1: #807BED;
+  --clr-text-code2: #F083C3;
+}
+
+/* Media query variables */
+
+:root {
+  --breakpoint: 375px;
+}
+
+/* Font-size variables */
+
+:root {
+  --fs-navbar__button: 12.5rem;
+  --fs-navbar__title: 1.25rem;
+  --fs-navbar__link: 1.03125rem;
+  --fs-navbar__text: 1.03125rem;
+  
+  --fs-header__heading: 2.125rem;
+  
+  --fs-header__body-text: 0.75rem;
+  
+  --fs-btn__text: 1.0625rem;
+  
+  --fs-overlay-code__line: 0.515728125rem;
+  --fs-overlay-small__skill: 0.6625rem;
+  
+  --fs-features__heading: 2.125rem;
+  --fs-features__body-text: 1rem;
+  
+  --fs-slide__heading: 2.125rem;
+  --fs-slide__text: 1rem;
+  
+  --fs-main-1__overlay-code: 0.45rem;
+  --fs-main-1__heading: 2.125rem;
+  --fs-main-1__body-text: 1rem;
+  
+  --fs-main-2__heading: 2.125rem;
+  --fs-main-2-card__heading: 2.125rem;
+  --fs-main-2-card__text: 1rem;
+  
+  --fs-tutors__heading: 1.4375rem;
+  --fs-tutors__name: 2rem;
+  
+  --fs-pay__heading: 2.125rem;
+  --fs-pay__body-text: 1rem;
+  
+  --fs-card__header: 1.3125rem;
+  --fs-card__dollar-sign: 1.125rem;
+  --fs-card__amount: 2.625rem;
+  --fs-card__feature: 1.1875rem;
+  --fs-card__button: 1.1875rem;
+  
+  --fs-faq__header: 2.125rem;
+  --fs-faq-item__question: 1.3125rem;
+  --fs-faq-item__answer: 1.1875rem;
+  --fs-faq-item__btn: 1.5625rem;
+  
+  --fs-get-started__heading: 1.4375rem;
+  --fs-get-started__text: 0.875rem;
+  --fs-get-started__btn: 0.625rem;
+  
+  --fs-footer__logo-main: 1.66666875rem;
+  --fs-footer__header-text: 2.125rem;
+  --fs-footer__link: 1.25rem;
+  
+  --fs-copyright__paragraph: 1.375rem;
+  --fs-copyright__link: 1.375rem;  
+}
+
+@media screen and (min-width: var(--breakpoint)) {
+  :root {
+    --fs-navbar__button: 1.66666875rem;
+    --fs-navbar__title: 2.125rem;
+    --fs-navbar__link: 1.375rem;
+    --fs-navbar__text: 1.375rem;
+
+    --fs-header__heading: 3.75rem;
+
+    --fs-header__body-text: 1rem;
+
+    --fs-btn__text: 2.0625rem;
+
+    --fs-overlay-code__line: 0.97303125rem;
+    --fs-overlay-small__skill: 1.25rem;
+
+    --fs-features__heading: 3rem;
+    --fs-features__body-text: 1.375rem;
+
+    --fs-slide__heading: 2.125rem;
+    --fs-slide__text: 1rem;
+
+    --fs-main-1__overlay-code: 0.875rem;
+    --fs-main-1__heading: 3rem;
+    --fs-main-1__body-text: 1.375rem;
+
+    --fs-main-2__heading: 3rem;
+    --fs-main-2-card__heading: 2.125rem;
+    --fs-main-2-card__text: 1rem;
+
+    --fs-tutors__heading: 1rem;
+    --fs-tutors__name: 3rem;
+
+    --fs-pay__heading: 3rem;
+    --fs-pay__body-text: 1.375rem;
+
+    --fs-card__header: 1.5rem;
+    --fs-card__dollar-sign: 1.25rem;
+    --fs-card__amount: 3rem;
+    --fs-card__feature: 1.375rem;
+    --fs-card__button: 1.375rem;
+
+    --fs-faq__header: 3rem;
+    --fs-faq-item__question: 2.125rem;
+    --fs-faq-item__answer: 1rem;
+    --fs-faq-item__btn: 3rem;
+
+    --fs-get-started__heading: 3.5rem;
+    --fs-get-started__text: 2.125rem;
+    --fs-get-started__btn: 1.375rem;
+
+    --fs-footer__logo-main: 1.66666875rem;
+    --fs-footer__header-text: 2.125rem;
+    --fs-footer__link: 1.875rem;
+
+    --fs-copyright__paragraph: 1.5rem;
+    --fs-copyright__link: 1.5rem;
+  }
+}
+
+/* Font-weight variables */
+
+:root {
+  --fw-navbar__button: 250;
+  --fw-navbar__title: 700;
+  --fw-navbar__link: 250;
+  --fw-navbar__text: 250;
+  
+  --fw-header__heading: 400;
+  
+  --fw-header__body-text: 400;
+  
+  --fw-btn__text: 500;
+  
+  --fw-overlay-code__line: 250;
+  --fw-overlay-small__skill: 250;
+  
+  --fw-features__heading: 500;
+  --fw-features__body-text: 200;
+  
+  --fw-slide__heading: 700;
+  --fw-slide__text: 400;
+  
+  --fw-main-1__overlay-code: 400;
+  --fw-main-1__heading: 500;
+  --fw-main-1__body-text: 200;
+  
+  --fw-main-2__heading: 500;
+  --fw-main-2-card__heading: 700;
+  --fw-main-2-card__text: 400;
+  
+  --fw-tutors__heading: 700;
+  --fw-tutors__name: 700;
+  
+  --fw-pay__heading: 700;
+  --fw-pay__body-text: 400;
+  
+  --fw-card__header: 400;
+  --fw-card__dollar-sign: 400;
+  --fw-card__amount: 700;
+  --fw-card__feature: 250;
+  --fw-card__button: 500;
+  
+  --fw-faq__header: 700;
+  --fw-faq-item__question: 500;
+  --fw-faq-item__answer: 250;
+  --fw-faq-item__btn: 500;
+  
+  --fw-get-started__heading: 800;
+  --fw-get-started__text: 250;
+  --fw-get-started__btn: 500;
+  
+  --fw-footer__logo-main: 250;
+  --fw-footer__header-text: 700;
+  --fw-footer__link: 200;
+  
+  --fw-copyright__paragraph: 200;
+  --fw-copyright__link: 200;  
+}
+
+@media screen and (min-width: var(--breakpoint)) {
+  :root {
+    --fw-navbar__button: 250;
+    --fw-navbar__title: 700;
+    --fw-navbar__link: 250;
+    --fw-navbar__text: 250;
+    
+    --fw-header__heading: 500;
+    
+    --fw-header__body-text: 400;
+    
+    --fw-btn__text: 500;
+    
+    --fw-overlay-code__line: 250;
+    --fw-overlay-small__skill: 250;
+    
+    --fw-features__heading: 700;
+    --fw-features__body-text: 250;
+    
+    --fw-slide__heading: 700;
+    --fw-slide__text: 400;
+    
+    --fw-main-1__overlay-code: 400;
+    --fw-main-1__heading: 700;
+    --fw-main-1__body-text: 250;
+    
+    --fw-main-2__heading: 700;
+    --fw-main-2-card__heading: 700;
+    --fw-main-2-card__text: 400;
+    
+    --fw-tutors__heading: 400;
+    --fw-tutors__name: 700;
+    
+    --fw-pay__heading: 700;
+    --fw-pay__body-text: 250;
+    
+    --fw-card__header: 400;
+    --fw-card__dollar-sign: 400;
+    --fw-card__amount: 700;
+    --fw-card__feature: 250;
+    --fw-card__button: 500;
+    
+    --fw-faq__header: 700;
+    --fw-faq-item__question: 700;
+    --fw-faq-item__answer: 400;
+    --fw-faq-item__btn: 500;
+    
+    --fw-get-started__heading: 800;
+    --fw-get-started__text: 700;
+    --fw-get-started__btn: 500;
+    
+    --fw-footer__logo-main: 250;
+    --fw-footer__header-text: 700;
+    --fw-footer__link: 250;
+    
+    --fw-copyright__paragraph: 200;
+    --fw-copyright__link: 200;    
+  }
+}
+
+body {
+}
+
+/* Font-family variables */
+
+:root {
+  --ff-navbar__button: 'Aeonik', sans-serif;
+  --ff-navbar__title: 'Aeonik', sans-serif;
+  --ff-navbar__link: 'Aeonik', sans-serif;
+  --ff-navbar__text: 'Aeonik', sans-serif;
+  
+  --ff-header__heading: 'Aeonik', sans-serif;
+  
+  --ff-header__body-text: 'Source Code Pro', monospace;
+  
+  --ff-btn__text: 'Aeonik', sans-serif;
+  
+  --ff-overlay-code__line: 'Aeonik', sans-serif;
+  --ff-overlay-small__skill: 'Aeonik', sans-serif;
+  
+  --ff-features__heading: 'Aeonik', sans-serif;
+  --ff-features__body-text: 'Inter', sans-serif;
+  
+  --ff-slide__heading: 'Aeonik', sans-serif;
+  --ff-slide__text: 'Inter', sans-serif;
+  
+  --ff-main-1__overlay-code: 'PT Mono', monospace;
+  --ff-main-1__heading: 'Aeonik', sans-serif;
+  --ff-main-1__body-text: 'Inter', sans-serif;
+  
+  --ff-main-2__heading: 'Aeonik', sans-serif;
+  --ff-main-2-card__heading: 'Aeonik', sans-serif;
+  --ff-main-2-card__text: 'Inter', sans-serif;
+  
+  --ff-tutors__heading: 'Aeonik', sans-serif;
+  --ff-tutors__name: 'Aeonik', sans-serif;
+  
+  --ff-pay__heading: 'Aeonik', sans-serif;
+  --ff-pay__body-text: 'Inter', sans-serif;
+  
+  --ff-card__header: 'Aeonik', sans-serif;
+  --ff-card__dollar-sign: 'Aeonik', sans-serif;
+  --ff-card__amount: 'Aeonik', sans-serif;
+  --ff-card__feature: 'Aeonik', sans-serif;
+  --ff-card__button: 'Aeonik', sans-serif;
+  
+  --ff-faq__header: 'Aeonik', sans-serif;
+  --ff-faq-item__question: 'Aeonik', sans-serif;
+  --ff-faq-item__answer: 'Aeonik', sans-serif;
+  --ff-faq-item__btn: 'Aeonik', sans-serif;
+  
+  --ff-get-started__heading: 'Source Code Pro', monospace;
+  --ff-get-started__text: 'Aeonik', sans-serif;
+  --ff-get-started__btn: 'Aeonik', sans-serif;
+  
+  --ff-footer__logo-main: 'Aeonik', sans-serif;
+  --ff-footer__header-text: 'Aeonik', sans-serif;
+  --ff-footer__link: 'Aeonik', sans-serif;
+  
+  --ff-copyright__paragraph: 'Aeonik', sans-serif;
+  --ff-copyright__link: 'Aeonik', sans-serif;
+}
+
+@media screen and (min-width: var(--breakpoint)) {
+  :root {
+    --ff-navbar__button: 'Aeonik', sans-serif;
+    --ff-navbar__title: 'Aeonik', sans-serif;
+    --ff-navbar__link: 'Aeonik', sans-serif;
+    --ff-navbar__text: 'Aeonik', sans-serif;
+    
+    --ff-header__heading: 'Source Code Pro', monospace;
+    
+    --ff-header__body-text: 'Source Code Pro', monospace;
+    
+    --ff-btn__text: 'Aeonik', sans-serif;
+    
+    --ff-overlay-code__line: 'Aeonik', sans-serif;
+    --ff-overlay-small__skill: 'Aeonik', sans-serif;
+    
+    --ff-features__heading: 'Aeonik', sans-serif;
+    --ff-features__body-text: 'Aeonik', sans-serif;
+    
+    --ff-slide__heading: 'Aeonik', sans-serif;
+    --ff-slide__text: 'Inter', sans-serif;
+    
+    --ff-main-1__overlay-code: 'PT Mono', monospace;
+    --ff-main-1__heading: 'Aeonik', sans-serif;
+    --ff-main-1__body-text: 'Aeonik', sans-serif;
+    
+    --ff-main-2__heading: 'Aeonik', sans-serif;
+    --ff-main-2-card__heading: 'Aeonik', sans-serif;
+    --ff-main-2-card__text: 'Inter', sans-serif;
+    
+    --ff-tutors__heading: 'Inter', sans-serif;
+    --ff-tutors__name: 'Aeonik', sans-serif;
+    
+    --ff-pay__heading: 'Aeonik', sans-serif;
+    --ff-pay__body-text: 'Aeonik', sans-serif;
+    
+    --ff-card__header: 'Aeonik', sans-serif;
+    --ff-card__dollar-sign: 'Aeonik', sans-serif;
+    --ff-card__amount: 'Aeonik', sans-serif;
+    --ff-card__feature: 'Aeonik', sans-serif;
+    --ff-card__button: 'Aeonik', sans-serif;
+    
+    --ff-faq__header: 'Aeonik', sans-serif;
+    --ff-faq-item__question: 'Aeonik', sans-serif;
+    --ff-faq-item__answer: 'Inter', sans-serif;
+    --ff-faq-item__btn: 'Aeonik', sans-serif;
+    
+    --ff-get-started__heading: 'Source Code Pro', monospace;
+    --ff-get-started__text: 'Aeonik', sans-serif;
+    --ff-get-started__btn: 'Aeonik', sans-serif;
+    
+    --ff-footer__logo-main: 'Aeonik', sans-serif;
+    --ff-footer__header-text: 'Aeonik', sans-serif;
+    --ff-footer__link: 'Aeonik', sans-serif;
+    
+    --ff-copyright__paragraph: 'Aeonik', sans-serif;
+    --ff-copyright__link: 'Aeonik', sans-serif; 
+  }
+}
+
+/* Line-height variables */
+
+:root {
+  --lh-navbar__button: 2rem;
+  --lh-navbar__title: 2.5625rem;
+  --lh-navbar__link: 1.625rem;
+  --lh-navbar__text: 1.625rem;
+  
+  --lh-header__heading: 4.6875rem;
+  
+  --lh-header__body-text: 1.25rem;
+  
+  --lh-btn__text: 1.625rem;
+  
+  --lh-overlay-code__line: 1.1875rem;
+  --lh-overlay-small__skill: 1.5rem;
+  
+  --lh-features__heading: 3.625rem;
+  --lh-features__body-text: 1.625rem;
+  
+  --lh-slide__heading: 2.5625rem;
+  --lh-slide__text: 1.375rem;
+  
+  --lh-main-1__overlay-code: 1.1875rem;
+  --lh-main-1__heading: 3.625rem;
+  --lh-main-1__body-text: 1.625rem;
+  
+  --lh-main-2__heading: 3.625rem;
+  --lh-main-2-card__heading: 2.5625rem;
+  --lh-main-2-card__text: 1.375rem;
+  
+  --lh-tutors__heading: 1.375rem;
+  --lh-tutors__name: 3.625rem;
+  
+  --lh-pay__heading: 3.625rem;
+  --lh-pay__body-text: 1.625rem;
+  
+  --lh-card__header: 1.8125rem;
+  --lh-card__dollar-sign: 1.75rem;
+  --lh-card__amount: 3.625rem;
+  --lh-card__feature: 1.625rem;
+  --lh-card__button: 1.625rem;
+  
+  --lh-faq__header: 3.625rem;
+  --lh-faq-item__question: 2.5625rem;
+  --lh-faq-item__answer: 1.375rem;
+  --lh-faq-item__btn: 3.5625rem;
+  
+  --lh-get-started__heading: 4.375rem;
+  --lh-get-started__text: 2.5625rem;
+  --lh-get-started__btn: 1.625rem;
+  
+  --lh-footer__logo-main: 2rem;
+  --lh-footer__header-text: 2.5625rem;
+  --lh-footer__link: 2.25rem;
+  
+  --lh-copyright__paragraph: 1.8125rem;
+  --lh-copyright__link: 1.8125rem;
+  
+}
+
+@media screen and (min-width: var(--breakpoint)) {
+  :root {
+    --lh-navbar__button: 1.5rem;
+    --lh-navbar__title: 1.75rem;
+    --lh-navbar__link: 1.21875rem;
+    --lh-navbar__text: 1.21875rem;
+    
+    --lh-header__heading: 2.5625rem;
+    
+    --lh-header__body-text: 0.9375rem;
+    
+    --lh-btn__text: 1.25rem;
+    
+    --lh-overlay-code__line: 0.625rem;
+    --lh-overlay-small__skill: 0.8125rem;
+    
+    --lh-features__heading: 2.5625rem;
+    --lh-features__body-text: 1.375rem;
+    
+    --lh-slide__heading: 2.5625rem;
+    --lh-slide__text: 1.375rem;
+    
+    --lh-main-1__overlay-code: 0.625rem;
+    --lh-main-1__heading: 2.5625rem;
+    --lh-main-1__body-text: 1.375rem;
+    
+    --lh-main-2__heading: 2.5625rem;
+    --lh-main-2-card__heading: 2.5625rem;
+    --lh-main-2-card__text: 1.375rem;
+    
+    --lh-tutors__heading: 1.75rem;
+    --lh-tutors__name: 2.375rem;
+    
+    --lh-pay__heading: 2.5625rem;
+    --lh-pay__body-text: 1.375rem;
+    
+    --lh-card__header: 1.5625rem;
+    --lh-card__dollar-sign: 1.5rem;
+    --lh-card__amount: 3.125rem;
+    --lh-card__feature: 1.4375rem;
+    --lh-card__button: 1.4375rem;
+    
+    --lh-faq__header: 2.5625rem;
+    --lh-faq-item__question: 1.5625rem;
+    --lh-faq-item__answer: 1.4375rem;
+    --lh-faq-item__btn: 1.875rem;
+    
+    --lh-get-started__heading: 1.8125rem;
+    --lh-get-started__text: 1.0625rem;
+    --lh-get-started__btn: 0.75rem;
+    
+    --lh-footer__logo-main: 1.4375rem;
+    --lh-footer__header-text: 2.5625rem;
+    --lh-footer__link: 1.5rem;
+    
+    --lh-copyright__paragraph: 1.625rem;
+    --lh-copyright__link: 1.625rem;
+    
+  }
+}
+
+/* Letter spacing variables */
+
+:root {
+  --ls-navbar__button: normal;
+  --ls-navbar__title: 0.009375rem;
+  --ls-navbar__link: normal;
+  --ls-navbar__text: normal;
+  
+  --ls-header__heading: 0.015625rem;
+  
+  --ls-header__body-text: normal;
+  
+  --ls-btn__text: normal;
+  
+  --ls-overlay-code__line: normal;
+  --ls-overlay-small__skill: normal;
+  
+  --ls-features__heading: 0.015625rem;
+  --ls-features__body-text: 0.00625rem;
+  
+  --ls-slide__heading: 0.015625rem;
+  --ls-slide__text: 0.00625rem;
+  
+  --ls-main-1__overlay-code: 0.08rem;
+  --ls-main-1__heading: 0.015625rem;
+  --ls-main-1__body-text: 0.00625rem;
+  
+  --ls-main-2__heading: 0.015625rem;
+  --ls-main-2-card__heading: 0.015625rem;
+  --ls-main-2-card__text: 0.00625rem;
+  
+  --ls-tutors__heading: 0.01025rem;
+  --ls-tutors__name: normal;
+  
+  --ls-pay__heading: 0.015625rem;
+  --ls-pay__body-text: 0.00625rem;
+  
+  --ls-card__header: 0.013625rem;
+  --ls-card__dollar-sign: 0.008125rem;
+  --ls-card__amount: normal;
+  --ls-card__feature: normal;
+  --ls-card__button: normal;
+  
+  --ls-faq__header: 0.015625rem;
+  --ls-faq-item__question: 0.013625rem;
+  --ls-faq-item__answer: normal;
+  --ls-faq-item__btn: 0.01rem;
+  
+  --ls-get-started__heading: -0.07rem;
+  --ls-get-started__text: 0.00625rem;
+  --ls-get-started__btn: normal;
+  
+  --ls-footer__logo-main: normal;
+  --ls-footer__header-text: 0.015625rem;
+  --ls-footer__link: 0.015625rem;
+  
+  --ls-copyright__paragraph: 0.015625rem;
+  --ls-copyright__link: 0.015625rem;
+  
+}
+
+@media screen and (min-width: var(--breakpoint)) {
+  :root {
+    --ls-navbar__button: normal;
+    --ls-navbar__title: 0.015625rem;
+    --ls-navbar__link: normal;
+    --ls-navbar__text: normal;
+    
+    --ls-header__heading: -0.03125rem;
+    
+    --ls-header__body-text: normal;
+    
+    --ls-btn__text: normal;
+    
+    --ls-overlay-code__line: normal;
+    --ls-overlay-small__skill: normal;
+    
+    --ls-features__heading: normal;
+    --ls-features__body-text: normal;
+    
+    --ls-slide__heading: 0.015625rem;
+    --ls-slide__text: 0.00625rem;
+    
+    --ls-main-1__overlay-code: 0.08rem;
+    --ls-main-1__heading: normal;
+    --ls-main-1__body-text: normal;
+    
+    --ls-main-2__heading: normal;
+    --ls-main-2-card__heading: 0.015625rem;
+    --ls-main-2-card__text: 0.00625rem;
+    
+    --ls-tutors__heading: 0.00625rem;
+    --ls-tutors__name: normal;
+    
+    --ls-pay__heading: normal;
+    --ls-pay__body-text: normal;
+    
+    --ls-card__header: 0.015625rem;
+    --ls-card__dollar-sign: 0.009375rem;
+    --ls-card__amount: normal;
+    --ls-card__feature: normal;
+    --ls-card__button: normal;
+    
+    --ls-faq__header: normal;
+    --ls-faq-item__question: 0.015625rem;
+    --ls-faq-item__answer: 0.00625rem;
+    --ls-faq-item__btn: 0.01875rem;
+    
+    --ls-get-started__heading: -0.07rem;
+    --ls-get-started__text: 0.015625rem;
+    --ls-get-started__btn: normal;
+    
+    --ls-footer__logo-main: normal;
+    --ls-footer__header-text: 0.015625rem;
+    --ls-footer__link: 0.015625rem;
+    
+    --ls-copyright__paragraph: 0.015625rem;
+    --ls-copyright__link: 0.015625rem;    
+  }
+}

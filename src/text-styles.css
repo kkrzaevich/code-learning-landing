@@ -1,0 +1,247 @@
+/* Text styles */
+
+.page-content {
+    color: var(--clr-text-main1);
+}
+
+.navbar__button{ font-family: var(--ff-navbar__button);
+    font-weight: var(--fw-navbar__button);
+    font-size: var(--fs-navbar__button); 
+    line-height: var(--lh-navbar__button); 
+    letter-spacing: var(--ls-navbar__button);
+
+    color: var(--clr-text-main2);
+}
+.navbar__title{ font-family: var(--ff-navbar__title);
+    font-weight: var(--fw-navbar__title);
+    font-size: var(--fs-navbar__title); 
+    line-height: var(--lh-navbar__title); 
+    letter-spacing: var(--ls-navbar__title)}
+.navbar__link{ font-family: var(--ff-navbar__link);
+    font-weight: var(--fw-navbar__link);
+    font-size: var(--fs-navbar__link); 
+    line-height: var(--lh-navbar__link); 
+    letter-spacing: var(--ls-navbar__link)}
+.navbar__text{ font-family: var(--ff-navbar__text);
+    font-weight: var(--fw-navbar__text);
+    font-size: var(--fs-navbar__text); 
+    line-height: var(--lh-navbar__text); 
+    letter-spacing: var(--ls-navbar__text);
+}
+.header__heading{ font-family: var(--ff-header__heading);
+    font-weight: var(--fw-header__heading);
+    font-size: var(--fs-header__heading); 
+    line-height: var(--lh-header__heading); 
+    letter-spacing: var(--ls-header__heading)}
+   
+.header__body-text{ font-family: var(--ff-header__body-text);
+    font-weight: var(--fw-header__body-text);
+    font-size: var(--fs-header__body-text); 
+    line-height: var(--lh-header__body-text); 
+    letter-spacing: var(--ls-header__body-text)}
+   
+.btn__text{ font-family: var(--ff-btn__text);
+    font-weight: var(--fw-btn__text);
+    font-size: var(--fs-btn__text); 
+    line-height: var(--lh-btn__text); 
+    letter-spacing: var(--ls-btn__text);
+        
+    color: var(--clr-text-main2);
+}
+   
+.overlay-code__line{ font-family: var(--ff-overlay-code__line);
+    font-weight: var(--fw-overlay-code__line);
+    font-size: var(--fs-overlay-code__line); 
+    line-height: var(--lh-overlay-code__line); 
+    letter-spacing: var(--ls-overlay-code__line)}
+
+.overlay-code__color1{
+    color: var(--clr-text-code1);
+}
+.overlay-code__color2{
+    color: var(--clr-text-code2);
+}
+
+.overlay-small__skill{ font-family: var(--ff-overlay-small__skill);
+    font-weight: var(--fw-overlay-small__skill);
+    font-size: var(--fs-overlay-small__skill); 
+    line-height: var(--lh-overlay-small__skill); 
+    letter-spacing: var(--ls-overlay-small__skill);
+
+    color: var(--clr-text-main2);
+}
+   
+.features__heading{ font-family: var(--ff-features__heading);
+    font-weight: var(--fw-features__heading);
+    font-size: var(--fs-features__heading); 
+    line-height: var(--lh-features__heading); 
+    letter-spacing: var(--ls-features__heading)}
+.features__body-text{ font-family: var(--ff-features__body-text);
+    font-weight: var(--fw-features__body-text);
+    font-size: var(--fs-features__body-text); 
+    line-height: var(--lh-features__body-text); 
+    letter-spacing: var(--ls-features__body-text)}
+   
+.slide__heading{ font-family: var(--ff-slide__heading);
+    font-weight: var(--fw-slide__heading);
+    font-size: var(--fs-slide__heading); 
+    line-height: var(--lh-slide__heading); 
+    letter-spacing: var(--ls-slide__heading)}
+.slide__text{ font-family: var(--ff-slide__text);
+    font-weight: var(--fw-slide__text);
+    font-size: var(--fs-slide__text); 
+    line-height: var(--lh-slide__text); 
+    letter-spacing: var(--ls-slide__text)}
+   
+.main-1__overlay-code{ font-family: var(--ff-main-1__overlay-code);
+    font-weight: var(--fw-main-1__overlay-code);
+    font-size: var(--fs-main-1__overlay-code); 
+    line-height: var(--lh-main-1__overlay-code); 
+    letter-spacing: var(--ls-main-1__overlay-code)}
+.main-1__heading{ font-family: var(--ff-main-1__heading);
+    font-weight: var(--fw-main-1__heading);
+    font-size: var(--fs-main-1__heading); 
+    line-height: var(--lh-main-1__heading); 
+    letter-spacing: var(--ls-main-1__heading)}
+.main-1__body-text{ font-family: var(--ff-main-1__body-text);
+    font-weight: var(--fw-main-1__body-text);
+    font-size: var(--fs-main-1__body-text); 
+    line-height: var(--lh-main-1__body-text); 
+    letter-spacing: var(--ls-main-1__body-text)}
+   
+.main-2__heading{ font-family: var(--ff-main-2__heading);
+    font-weight: var(--fw-main-2__heading);
+    font-size: var(--fs-main-2__heading); 
+    line-height: var(--lh-main-2__heading); 
+    letter-spacing: var(--ls-main-2__heading)}
+.main-2-card__heading{ font-family: var(--ff-main-2-card__heading);
+    font-weight: var(--fw-main-2-card__heading);
+    font-size: var(--fs-main-2-card__heading); 
+    line-height: var(--lh-main-2-card__heading); 
+    letter-spacing: var(--ls-main-2-card__heading)}
+.main-2-card__text{ font-family: var(--ff-main-2-card__text);
+    font-weight: var(--fw-main-2-card__text);
+    font-size: var(--fs-main-2-card__text); 
+    line-height: var(--lh-main-2-card__text); 
+    letter-spacing: var(--ls-main-2-card__text)}
+   
+.tutors__heading{ font-family: var(--ff-tutors__heading);
+    font-weight: var(--fw-tutors__heading);
+    font-size: var(--fs-tutors__heading); 
+    line-height: var(--lh-tutors__heading); 
+    letter-spacing: var(--ls-tutors__heading)}
+.tutors__name{ font-family: var(--ff-tutors__name);
+    font-weight: var(--fw-tutors__name);
+    font-size: var(--fs-tutors__name); 
+    line-height: var(--lh-tutors__name); 
+    letter-spacing: var(--ls-tutors__name)}
+   
+.pay__heading{ font-family: var(--ff-pay__heading);
+    font-weight: var(--fw-pay__heading);
+    font-size: var(--fs-pay__heading); 
+    line-height: var(--lh-pay__heading); 
+    letter-spacing: var(--ls-pay__heading)}
+.pay__body-text{ font-family: var(--ff-pay__body-text);
+    font-weight: var(--fw-pay__body-text);
+    font-size: var(--fs-pay__body-text); 
+    line-height: var(--lh-pay__body-text); 
+    letter-spacing: var(--ls-pay__body-text)}
+   
+.card__header{ font-family: var(--ff-card__header);
+    font-weight: var(--fw-card__header);
+    font-size: var(--fs-card__header); 
+    line-height: var(--lh-card__header); 
+    letter-spacing: var(--ls-card__header)}
+.card__dollar-sign{ font-family: var(--ff-card__dollar-sign);
+    font-weight: var(--fw-card__dollar-sign);
+    font-size: var(--fs-card__dollar-sign); 
+    line-height: var(--lh-card__dollar-sign); 
+    letter-spacing: var(--ls-card__dollar-sign)}
+.card__amount{ font-family: var(--ff-card__amount);
+    font-weight: var(--fw-card__amount);
+    font-size: var(--fs-card__amount); 
+    line-height: var(--lh-card__amount); 
+    letter-spacing: var(--ls-card__amount)}
+.card__feature{ font-family: var(--ff-card__feature);
+    font-weight: var(--fw-card__feature);
+    font-size: var(--fs-card__feature); 
+    line-height: var(--lh-card__feature); 
+    letter-spacing: var(--ls-card__feature)}
+.card__button{ font-family: var(--ff-card__button);
+    font-weight: var(--fw-card__button);
+    font-size: var(--fs-card__button); 
+    line-height: var(--lh-card__button); 
+    letter-spacing: var(--ls-card__button);
+
+    color: var(--clr-text-highlight);
+}
+   
+.faq__header{ font-family: var(--ff-faq__header);
+    font-weight: var(--fw-faq__header);
+    font-size: var(--fs-faq__header); 
+    line-height: var(--lh-faq__header); 
+    letter-spacing: var(--ls-faq__header)}
+.faq-item__question{ font-family: var(--ff-faq-item__question);
+    font-weight: var(--fw-faq-item__question);
+    font-size: var(--fs-faq-item__question); 
+    line-height: var(--lh-faq-item__question); 
+    letter-spacing: var(--ls-faq-item__question)}
+.faq-item__answer{ font-family: var(--ff-faq-item__answer);
+    font-weight: var(--fw-faq-item__answer);
+    font-size: var(--fs-faq-item__answer); 
+    line-height: var(--lh-faq-item__answer); 
+    letter-spacing: var(--ls-faq-item__answer)}
+.faq-item__btn{ font-family: var(--ff-faq-item__btn);
+    font-weight: var(--fw-faq-item__btn);
+    font-size: var(--fs-faq-item__btn); 
+    line-height: var(--lh-faq-item__btn); 
+    letter-spacing: var(--ls-faq-item__btn);
+
+    color: var(--clr-text-highlight); 
+}
+   
+.get-started__heading{ font-family: var(--ff-get-started__heading);
+    font-weight: var(--fw-get-started__heading);
+    font-size: var(--fs-get-started__heading); 
+    line-height: var(--lh-get-started__heading); 
+    letter-spacing: var(--ls-get-started__heading)}
+.get-started__text{ font-family: var(--ff-get-started__text);
+    font-weight: var(--fw-get-started__text);
+    font-size: var(--fs-get-started__text); 
+    line-height: var(--lh-get-started__text); 
+    letter-spacing: var(--ls-get-started__text)}
+.get-started__btn{ font-family: var(--ff-get-started__btn);
+    font-weight: var(--fw-get-started__btn);
+    font-size: var(--fs-get-started__btn); 
+    line-height: var(--lh-get-started__btn); 
+    letter-spacing: var(--ls-get-started__btn)}
+.footer {    
+    color: var(--clr-text-main2);
+}
+.footer__logo-main{ font-family: var(--ff-footer__logo-main);
+    font-weight: var(--fw-footer__logo-main);
+    font-size: var(--fs-footer__logo-main); 
+    line-height: var(--lh-footer__logo-main); 
+    letter-spacing: var(--ls-footer__logo-main)}
+.footer__header-text{ font-family: var(--ff-footer__header-text);
+    font-weight: var(--fw-footer__header-text);
+    font-size: var(--fs-footer__header-text); 
+    line-height: var(--lh-footer__header-text); 
+    letter-spacing: var(--ls-footer__header-text)}
+.footer__link{ font-family: var(--ff-footer__link);
+    font-weight: var(--fw-footer__link);
+    font-size: var(--fs-footer__link); 
+    line-height: var(--lh-footer__link); 
+    letter-spacing: var(--ls-footer__link)}
+   
+.copyright__paragraph{ font-family: var(--ff-copyright__paragraph);
+    font-weight: var(--fw-copyright__paragraph);
+    font-size: var(--fs-copyright__paragraph); 
+    line-height: var(--lh-copyright__paragraph); 
+    letter-spacing: var(--ls-copyright__paragraph)}
+.copyright__link{ font-family: var(--ff-copyright__link);
+    font-weight: var(--fw-copyright__link);
+    font-size: var(--fs-copyright__link); 
+    line-height: var(--lh-copyright__link); 
+    letter-spacing: var(--ls-copyright__link)}
+   

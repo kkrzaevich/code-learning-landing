@@ -1,0 +1,81 @@
+/* Color styles */
+
+/* Sections - bg colors */
+
+.header__main {
+    background-color: var(--clr-bg1);
+}
+.header__pictures {
+    background-color: var(--clr-bg3);
+}
+.pictures-container__overlay-small {
+    background-color: var(--clr-bg1);
+}
+.pictures-container__overlay-code {
+    background-color: var(--clr-bg2);
+}
+.partners {
+    background-color: var(--clr-bg2);
+}
+.features {
+    background-color: var(--clr-bg1);
+}
+.features__slide {
+    background-color: var(--clr-bg2);
+}
+.main-1 {
+    background-color: var(--clr-bg2);
+}
+.main-1__overlay-code {
+    background-color: var(--clr-bg2);
+}
+.main-2 {
+    background-color: var(--clr-bg2);
+}
+.main-2__background {
+    background-color: var(--clr-bg1);
+}
+.main-2__foreground {
+    background-color: var(--clr-bg-highlight);
+}
+.pay {
+    background-color: var(--clr-bg2);
+}
+.pay__card {
+    background-color: var(--clr-bg1);
+}
+.faq {
+    background-color: var(--clr-bg2);
+}
+.get-started {
+    background-color: var(--clr-bg-highlight);
+}
+.footer {
+    background-color: var(--clr-bg3);
+}
+
+/* Buttons - bg colors */
+
+.btn {
+    background-color: var(--clr-bg3);
+}
+
+.navbar__button {
+    background-color: var(--clr-bg3);
+}
+
+.slider__button {
+    background-color: var(--clr-bg-slider);
+}
+
+.card__button {
+    background-color: var(--clr-bg2);
+}
+
+.faq-item__btn {
+    background-color: var(--clr-bg2);
+}
+
+.footer__logo-main {
+    background-color: var(--clr-bg-highlight);    
+}

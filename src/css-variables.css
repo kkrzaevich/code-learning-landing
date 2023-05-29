@@ -1,6 +1,7 @@
 /* Fonts */
 
-@import url(//db.onlinewebfonts.com/c/8f2a9d487bbbc60974cd132fc3a63862?family=Aeonik);
+/* @import url(//db.onlinewebfonts.com/c/8f2a9d487bbbc60974cd132fc3a63862?family=Aeonik); */
+@import url(https://fonts.googleapis.com/css?family=DM+Sans:regular,italic,500,500italic,700,700italic);
 @import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
 @import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
 @import url(https://fonts.googleapis.com/css?family=PT+Mono:regular);
@@ -265,120 +266,120 @@
 /* Font-family variables */
 
 :root {
-  --ff-navbar__button: 'Aeonik', sans-serif;
-  --ff-navbar__title: 'Aeonik', sans-serif;
-  --ff-navbar__link: 'Aeonik', sans-serif;
-  --ff-navbar__text: 'Aeonik', sans-serif;
+  --ff-navbar__button: 'DM Sans', sans-serif;
+  --ff-navbar__title: 'DM Sans', sans-serif;
+  --ff-navbar__link: 'DM Sans', sans-serif;
+  --ff-navbar__text: 'DM Sans', sans-serif;
   
-  --ff-header__heading: 'Aeonik', sans-serif;
+  --ff-header__heading: 'DM Sans', sans-serif;
   
   --ff-header__body-text: 'Source Code Pro', monospace;
   
-  --ff-btn__text: 'Aeonik', sans-serif;
+  --ff-btn__text: 'DM Sans', sans-serif;
   
-  --ff-overlay-code__line: 'Aeonik', sans-serif;
-  --ff-overlay-small__skill: 'Aeonik', sans-serif;
+  --ff-overlay-code__line: 'DM Sans', sans-serif;
+  --ff-overlay-small__skill: 'DM Sans', sans-serif;
   
-  --ff-features__heading: 'Aeonik', sans-serif;
+  --ff-features__heading: 'DM Sans', sans-serif;
   --ff-features__body-text: 'Inter', sans-serif;
   
-  --ff-slide__heading: 'Aeonik', sans-serif;
+  --ff-slide__heading: 'DM Sans', sans-serif;
   --ff-slide__text: 'Inter', sans-serif;
   
   --ff-main-1__overlay-code: 'PT Mono', monospace;
-  --ff-main-1__heading: 'Aeonik', sans-serif;
+  --ff-main-1__heading: 'DM Sans', sans-serif;
   --ff-main-1__body-text: 'Inter', sans-serif;
   
-  --ff-main-2__heading: 'Aeonik', sans-serif;
-  --ff-main-2-card__heading: 'Aeonik', sans-serif;
+  --ff-main-2__heading: 'DM Sans', sans-serif;
+  --ff-main-2-card__heading: 'DM Sans', sans-serif;
   --ff-main-2-card__text: 'Inter', sans-serif;
   
-  --ff-tutors__heading: 'Aeonik', sans-serif;
-  --ff-tutors__name: 'Aeonik', sans-serif;
+  --ff-tutors__heading: 'DM Sans', sans-serif;
+  --ff-tutors__name: 'DM Sans', sans-serif;
   
-  --ff-pay__heading: 'Aeonik', sans-serif;
+  --ff-pay__heading: 'DM Sans', sans-serif;
   --ff-pay__body-text: 'Inter', sans-serif;
   
-  --ff-card__header: 'Aeonik', sans-serif;
-  --ff-card__dollar-sign: 'Aeonik', sans-serif;
-  --ff-card__amount: 'Aeonik', sans-serif;
-  --ff-card__feature: 'Aeonik', sans-serif;
-  --ff-card__button: 'Aeonik', sans-serif;
+  --ff-card__header: 'DM Sans', sans-serif;
+  --ff-card__dollar-sign: 'DM Sans', sans-serif;
+  --ff-card__amount: 'DM Sans', sans-serif;
+  --ff-card__feature: 'DM Sans', sans-serif;
+  --ff-card__button: 'DM Sans', sans-serif;
   
-  --ff-faq__header: 'Aeonik', sans-serif;
-  --ff-faq-item__question: 'Aeonik', sans-serif;
-  --ff-faq-item__answer: 'Aeonik', sans-serif;
-  --ff-faq-item__btn: 'Aeonik', sans-serif;
+  --ff-faq__header: 'DM Sans', sans-serif;
+  --ff-faq-item__question: 'DM Sans', sans-serif;
+  --ff-faq-item__answer: 'DM Sans', sans-serif;
+  --ff-faq-item__btn: 'DM Sans', sans-serif;
   
   --ff-get-started__heading: 'Source Code Pro', monospace;
-  --ff-get-started__text: 'Aeonik', sans-serif;
-  --ff-get-started__btn: 'Aeonik', sans-serif;
+  --ff-get-started__text: 'DM Sans', sans-serif;
+  --ff-get-started__btn: 'DM Sans', sans-serif;
   
-  --ff-footer__logo-main: 'Aeonik', sans-serif;
-  --ff-footer__header-text: 'Aeonik', sans-serif;
-  --ff-footer__link: 'Aeonik', sans-serif;
+  --ff-footer__logo-main: 'DM Sans', sans-serif;
+  --ff-footer__header-text: 'DM Sans', sans-serif;
+  --ff-footer__link: 'DM Sans', sans-serif;
   
-  --ff-copyright__paragraph: 'Aeonik', sans-serif;
-  --ff-copyright__link: 'Aeonik', sans-serif;
+  --ff-copyright__paragraph: 'DM Sans', sans-serif;
+  --ff-copyright__link: 'DM Sans', sans-serif;
 }
 
 @media screen and (min-width: 375px) {
   :root {
-    --ff-navbar__button: 'Aeonik', sans-serif;
-    --ff-navbar__title: 'Aeonik', sans-serif;
-    --ff-navbar__link: 'Aeonik', sans-serif;
-    --ff-navbar__text: 'Aeonik', sans-serif;
+    --ff-navbar__button: 'DM Sans', sans-serif;
+    --ff-navbar__title: 'DM Sans', sans-serif;
+    --ff-navbar__link: 'DM Sans', sans-serif;
+    --ff-navbar__text: 'DM Sans', sans-serif;
     
     --ff-header__heading: 'Source Code Pro', monospace;
     
     --ff-header__body-text: 'Source Code Pro', monospace;
     
-    --ff-btn__text: 'Aeonik', sans-serif;
+    --ff-btn__text: 'DM Sans', sans-serif;
     
-    --ff-overlay-code__line: 'Aeonik', sans-serif;
-    --ff-overlay-small__skill: 'Aeonik', sans-serif;
+    --ff-overlay-code__line: 'DM Sans', sans-serif;
+    --ff-overlay-small__skill: 'DM Sans', sans-serif;
     
-    --ff-features__heading: 'Aeonik', sans-serif;
-    --ff-features__body-text: 'Aeonik', sans-serif;
+    --ff-features__heading: 'DM Sans', sans-serif;
+    --ff-features__body-text: 'DM Sans', sans-serif;
     
-    --ff-slide__heading: 'Aeonik', sans-serif;
+    --ff-slide__heading: 'DM Sans', sans-serif;
     --ff-slide__text: 'Inter', sans-serif;
     
     --ff-main-1__overlay-code: 'PT Mono', monospace;
-    --ff-main-1__heading: 'Aeonik', sans-serif;
-    --ff-main-1__body-text: 'Aeonik', sans-serif;
+    --ff-main-1__heading: 'DM Sans', sans-serif;
+    --ff-main-1__body-text: 'DM Sans', sans-serif;
     
-    --ff-main-2__heading: 'Aeonik', sans-serif;
-    --ff-main-2-card__heading: 'Aeonik', sans-serif;
+    --ff-main-2__heading: 'DM Sans', sans-serif;
+    --ff-main-2-card__heading: 'DM Sans', sans-serif;
     --ff-main-2-card__text: 'Inter', sans-serif;
     
     --ff-tutors__heading: 'Inter', sans-serif;
-    --ff-tutors__name: 'Aeonik', sans-serif;
+    --ff-tutors__name: 'DM Sans', sans-serif;
     
-    --ff-pay__heading: 'Aeonik', sans-serif;
-    --ff-pay__body-text: 'Aeonik', sans-serif;
+    --ff-pay__heading: 'DM Sans', sans-serif;
+    --ff-pay__body-text: 'DM Sans', sans-serif;
     
-    --ff-card__header: 'Aeonik', sans-serif;
-    --ff-card__dollar-sign: 'Aeonik', sans-serif;
-    --ff-card__amount: 'Aeonik', sans-serif;
-    --ff-card__feature: 'Aeonik', sans-serif;
-    --ff-card__button: 'Aeonik', sans-serif;
+    --ff-card__header: 'DM Sans', sans-serif;
+    --ff-card__dollar-sign: 'DM Sans', sans-serif;
+    --ff-card__amount: 'DM Sans', sans-serif;
+    --ff-card__feature: 'DM Sans', sans-serif;
+    --ff-card__button: 'DM Sans', sans-serif;
     
-    --ff-faq__header: 'Aeonik', sans-serif;
-    --ff-faq-item__question: 'Aeonik', sans-serif;
+    --ff-faq__header: 'DM Sans', sans-serif;
+    --ff-faq-item__question: 'DM Sans', sans-serif;
     --ff-faq-item__answer: 'Inter', sans-serif;
-    --ff-faq-item__btn: 'Aeonik', sans-serif;
+    --ff-faq-item__btn: 'DM Sans', sans-serif;
     
     --ff-get-started__heading: 'Source Code Pro', monospace;
-    --ff-get-started__text: 'Aeonik', sans-serif;
-    --ff-get-started__btn: 'Aeonik', sans-serif;
+    --ff-get-started__text: 'DM Sans', sans-serif;
+    --ff-get-started__btn: 'DM Sans', sans-serif;
     
-    --ff-footer__logo-main: 'Aeonik', sans-serif;
-    --ff-footer__header-text: 'Aeonik', sans-serif;
-    --ff-footer__link: 'Aeonik', sans-serif;
+    --ff-footer__logo-main: 'DM Sans', sans-serif;
+    --ff-footer__header-text: 'DM Sans', sans-serif;
+    --ff-footer__link: 'DM Sans', sans-serif;
     
-    --ff-copyright__paragraph: 'Aeonik', sans-serif;
-    --ff-copyright__link: 'Aeonik', sans-serif; 
+    --ff-copyright__paragraph: 'DM Sans', sans-serif;
+    --ff-copyright__link: 'DM Sans', sans-serif; 
   }
 }
 

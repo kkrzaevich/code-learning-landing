@@ -1,7 +1,148 @@
 /* General margins */
 
+.page-content {
+    margin: 0px 0px 0px 0px;
+  }
+
 /* Paddings */
 
+/* Sections */
+
+.header__main {
+    padding: 25px 16px 82px 16px;
+}
+
+.partners {
+    padding: 80px 23px 81px 24px;
+}
+
+.features {
+    padding: 5px 16px 58px 16px;
+}
+
+.main-1 {
+    padding: 30px 21px 84px 34px;  
+}
+
+.main-2 {
+    padding: 34px 16px 166px 16px;
+}
+
+.pay {
+    padding: 0px 16px 11px 16px;
+}
+
+.faq {
+    padding: 11px 16px 231px 16px;         
+}
+
+.get-started {
+    padding: 31px 28px 31px 28px;   
+}
+
+.footer {
+    padding: 212px 16px 59px 16px;    
+}
+
+@media screen and (min-width: 375px) {
+    .header__main {
+        padding: 59px 80px 107px 50px;
+    }
+    
+    .partners {
+        padding: 80px 131px 80px 131px;
+    }
+    
+    .features {
+        padding: 119px 0px 82px 50px;
+    }
+    
+    .main-1 {
+        padding: 176px 100px 157px 127px;    
+    }
+    
+    .main-2 {
+        padding: 0px 50px 0px 50px; 
+    }
+    
+    .pay {
+        padding: 175px 92px 169px 92px; 
+    }
+    
+    .faq {
+        padding: 0px 50px 186px 50px;         
+    }
+    
+    .get-started {
+        padding: 53px 201px 51px 201px;    
+    }
+    
+    .footer {
+        padding: 303px 131px 101px 131px;     
+    }
+}
+
+/* Subsections and buttons */
+
+.pictures-container__overlay-code {
+    padding: 16.5px 76.7px 13.3px 13.5px;
+}
+
+.main-1__overlay-code {
+    padding: 16px 39.1px 8.75px 12.87px;
+}
+
+.btn {
+    padding: 19.5px 19.5px 19.5px 19.5px;
+}
+
+.main-1__btn{
+    padding: 19.5px 88px 19.5px 88px;
+}
+
+.card__button {
+    padding: 13px 95px 13px 95px;
+}
+
+@media screen and (min-width: 375px) {
+    .pictures-container__overlay-code {
+        padding: 31px 146px 23.6px 25.5px;
+    }
+    
+    .main-1__overlay-code {
+        padding: 31px 76px 31px 25px;
+    }
+    
+    .btn {
+        padding: 24.5px 29px 24.5px 29px; 
+    }
+    
+    .main-1__btn{
+        padding: 24.5px 29px 24.5px 29px;
+    }
+    .card__button {
+        padding: 15px 108.5px 15px 108.5px;
+    }
+}
+
 /* Top and bottom margins between elements */
+
+@media screen and (min-width: 375px) {
+    .header__navbar {
+        margin-bottom: 82px;
+    }
+
+    .header__heading {
+        margin-bottom: 74px;
+    }
+
+    .header__line {
+        margin-bottom: 0px;
+    }
+
+    .header__body-text {
+        margin-bottom: 111px;
+    }
+}
 
 /* Side margins between elements */

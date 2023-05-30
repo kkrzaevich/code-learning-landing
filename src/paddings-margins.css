@@ -44,6 +44,9 @@
     padding: 212px 16px 59px 16px;    
 }
 
+
+
+
 @media screen and (min-width: 375px) {
     .header__main {
         padding: 59px 80px 107px 50px;
@@ -92,6 +95,10 @@
     padding: 16px 39.1px 8.75px 12.87px;
 }
 
+.pictures-container__overlay-small {
+    padding: 9.8px 101.2px 9.8px 34.4px;    
+}
+
 .btn {
     padding: 19.5px 19.5px 19.5px 19.5px;
 }
@@ -112,6 +119,10 @@
     .main-1__overlay-code {
         padding: 31px 76px 31px 25px;
     }
+
+    .pictures-container__overlay-small {
+        padding: 18.5px 191px 18.5px 65px;    
+    }
     
     .btn {
         padding: 24.5px 29px 24.5px 29px; 
@@ -126,6 +137,106 @@
 }
 
 /* Top and bottom margins between elements */
+
+.header__navbar {
+    margin-bottom: 54px;
+}
+
+.header__heading {
+    margin-bottom: 29px;
+}
+
+.header__line {
+    margin-bottom: 2px;
+}
+
+.header__body-text {
+    margin-bottom: 29px;
+}
+
+.overlay-code__icon--top {
+    margin-bottom: 4.5px;
+}
+
+.overlay-code__icon--bottom {
+    margin-top: 60px;
+}
+
+.overlay-code__text {
+    margin-top: 16.6px;
+}
+
+.features__heading {
+    margin-bottom: 18px;
+}
+
+.features__body-text {
+    margin-bottom: 22px;        
+}
+
+.main-1__heading {
+    margin-bottom: 21px;
+}
+
+.main-1__body-text {
+    margin-bottom: 32px; 
+}
+
+.main-2__heading {
+    margin-bottom: 66px;
+}
+
+.main-2-card__image {
+    margin-bottom: 41px;
+}
+
+.main-2-card__heading {
+    margin-bottom: 32px;
+}
+
+.tutors__heading {
+    margin-bottom: 13px;
+}
+
+.pay__heading {
+    margin-bottom: 62px;
+}
+
+.pay__body-text {
+    margin-bottom: 124px;
+}
+
+.card__header {
+    margin-bottom: 26px;
+}
+
+.card__price {
+    margin-bottom: 52px;
+}
+
+.card__features {
+    margin-bottom: 68px;
+}
+
+.faq__header {
+    margin-bottom: 49px;
+}
+
+.faq-item__question {
+    margin-bottom: 6px;
+}
+
+.faq__line {
+    margin-bottom: 36px;
+}
+
+.get-started__heading {
+    margin-bottom: 15px;
+}
+
+.get-started__text {
+    margin-bottom: 17px;
+}
 
 @media screen and (min-width: 375px) {
     .header__navbar {
@@ -143,6 +254,196 @@
     .header__body-text {
         margin-bottom: 111px;
     }
+
+    .overlay-code__icon--top {
+        margin-bottom: 8.5px;
+    }
+
+    .overlay-code__icon--bottom {
+        margin-top: 113.2px;
+    }
+
+    .overlay-code__text {
+        margin-top: 21.2px;
+    }
+
+    .features__heading {
+        margin-bottom: 46px;
+    }
+
+    .features__body-text {
+        margin-bottom: 87px;        
+    }
+
+    .main-1__heading {
+        margin-top: 45px; 
+        margin-bottom: 35px;
+    }
+
+    .main-1__body-text {
+        margin-bottom: 48px; 
+    }
+
+    .main-2__heading {
+        margin-top: 110px;
+        margin-bottom: 98px;
+    }
+
+    .main-2-card__image {
+        margin-bottom: 61px;
+    }
+
+    .main-2-card__heading {
+        margin-bottom: 19px;
+    }
+
+    .tutors__heading {
+        margin-top: 25.7px;
+        margin-bottom: 21px;
+    }
+
+    .pay__heading {
+        margin-bottom: 35px;
+    }
+
+    .pay__body-text {
+        margin-bottom: 80px;
+    }
+
+    .card__header {
+        margin-bottom: 38px;
+    }
+
+    .card__price {
+        margin-bottom: 27px;
+    }
+
+    .card__features {
+        margin-bottom: 80px;
+    }
+
+    .faq__header {
+        margin-bottom: 60px;
+    }
+
+    .faq-item__question {
+        margin-bottom: 53px;
+    }
+
+    .faq__line {
+        margin-bottom: 69px;
+    }
+    
+    .get-started__heading {
+        margin-bottom: 12px;
+    }
+
+    .get-started__text {
+        margin-bottom: 38px;
+    }
 }
 
 /* Side margins between elements */
+
+.navbar__button {
+    margin-right: 10px;
+}
+
+.navbar__link {
+    margin-right: 17px;
+}
+
+.navbar__text {
+    margin-right: 17px;
+}
+
+.btn__text {
+    margin-right: 16px;
+}
+
+.overlay-code__nav {
+    margin-right: 23.2px;
+}
+
+.partners__image {
+    margin-right: 56px;
+}
+
+.main-1__overlay-code {
+    margin-right: 23px;
+}
+
+.footer__logo-main {
+    margin-right: 19px;
+}
+
+.footer__social-image {
+    margin-right: 43px;
+}
+
+@media screen and (min-width: 375px) {
+    .navbar__button {
+        margin-right: 83px;
+    }
+
+    .navbar__link {
+        margin-right: 26px;
+    }
+
+    .navbar__text {
+        margin-right: 26px;
+    }
+
+    .btn__text {
+        margin-right: 20px;
+    }
+
+    .overlay-code__nav {
+        margin-right: 44px;
+    }
+
+    .partners__image {
+        margin-right: 154px;
+    }
+
+    .features__heading {
+        margin-right: 196px;
+    }
+
+    .features__slide {
+        margin-right: 39px;
+    }
+
+    .main-1__overlay-code {
+        margin-right: 171px;
+    }
+
+    .main-2__images {
+        margin-left: 274px;
+    }
+
+    .main-2__vertical-line {
+        margin-right: 48px;
+        margin-left: 61x;
+    }
+
+    .pay__card {
+        margin-right: 38px;
+    }
+
+    .get-started__btn {
+        margin-right: 23px;
+    }
+
+    .footer__logo-main {
+        margin-right: 19px;
+    }
+
+    .footer__social-image {
+        margin-right: 19px;
+    }
+
+    .footer__link {
+        margin-right: 69px;
+    }
+}
